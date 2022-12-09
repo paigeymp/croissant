@@ -1,6 +1,6 @@
 :root {
-  --primary-color: blueviolet;
-  --secondary-color: rgb(103, 170, 192);
+  --primary-color: rgb(185, 116, 12);
+  --secondary-color: rgb(107, 76, 50);
   --accent-color: white;
   --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   --border-radius: 15px;
@@ -33,6 +33,13 @@ h1 {
   text-align: center;
 }
 
+.about-croissants {
+  color: var(--secondary-color);
+  max-width: 400px;
+  display: block;
+  margin: 20px auto;
+}
+
 .email-link,
 .phone {
   display: flex;
@@ -41,6 +48,10 @@ h1 {
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
+}
+
+.email-link:hover {
+  color: var(--secondary-color);
 }
 
 .navigation-links {
@@ -78,7 +89,7 @@ h1 {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 48px;
+    font-size: 32px;
   }
 
   h3 {
@@ -87,5 +98,10 @@ h1 {
 
   body {
     background: #ffffff;
+  }
+
+  .email-link,
+  .phone {
+    font-size: 18px;
   }
 }
