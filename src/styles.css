@@ -1,0 +1,65 @@
+:root {
+  --primary-color: blue;
+  --secondary-color: lightblue;
+  --accent-color: white;
+  --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  --border-radius: 15px;
+}
+
+body {
+  margin-top: 100px;
+  padding: 40px;
+  display: block;
+  margin: auto;
+  font-family: "quicksand", cursive;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-links a {
+  flex: 1;
+  text-align: center;
+  border: 1px solid var(--accent-color);
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+  max-width: 200px;
+}
+
+.navigation-links a:hover {
+  text-decoration: underline;
+  color: var(--accent-color);
+  background: var(--secondary-color);
+}
+
+.link {
+  border-radius: var(--border-radius);
+}
