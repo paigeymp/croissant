@@ -16,10 +16,12 @@ body {
 
 h3 {
   font-size: 48px;
+  color: var(--secondary-color);
 }
 
 h1 {
   font-size: 96px;
+  color: var(--primary-color);
 }
 
 .intro {
@@ -30,7 +32,8 @@ h1 {
   text-align: center;
 }
 
-.email-link {
+.email-link,
+.phone {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
