@@ -12,6 +12,7 @@ body {
   display: block;
   margin: auto;
   font-family: "quicksand", cursive;
+  background: #f8e8a6;
 }
 
 h3 {
@@ -85,6 +86,6 @@ h1 {
   }
 
   body {
-    background: rgb(197, 193, 193);
+    background: #ffffff;
   }
 }
