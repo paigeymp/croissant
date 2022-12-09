@@ -1,6 +1,6 @@
 :root {
-  --primary-color: blue;
-  --secondary-color: lightblue;
+  --primary-color: blueviolet;
+  --secondary-color: rgb(103, 170, 192);
   --accent-color: white;
   --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   --border-radius: 15px;
@@ -62,4 +62,18 @@ h1 {
 
 .link {
   border-radius: var(--border-radius);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  body {
+    background: rgb(197, 193, 193);
+  }
 }
