@@ -15,14 +15,14 @@ body {
   background: #f8e8a6;
 }
 
-h3 {
-  font-size: 48px;
-  color: var(--secondary-color);
-}
-
 h1 {
   font-size: 96px;
   color: var(--primary-color);
+}
+
+h2 {
+  font-size: 48px;
+  color: var(--secondary-color);
 }
 
 .intro {
@@ -92,7 +92,7 @@ h1 {
     font-size: 32px;
   }
 
-  h3 {
+  h2 {
     display: none;
   }
 
